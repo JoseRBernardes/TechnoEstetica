@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+/* PALHETA PRINCIPAL
+5 - #07beb8
+4 - #3dccc7
+3 - #68d8d6
+2 - #9ceaef
+1 - #c4fff9 */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: #c4FFF9;
+}
+
+.hidden{
+    visibility: hidden !important;
+}

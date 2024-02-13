@@ -1,0 +1,40 @@
+
+.footerNav{
+    
+    position: fixed;
+    bottom: 0;
+    background-color: #07beb8;
+    width: 100%;
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    padding: .5em;
+    padding-left: .1em;
+}
+
+.imgNav{
+    width: 49px;
+    padding: .2em;
+    cursor: pointer;
+}
+.imgNav:hover{
+    background-color: #68d8d6;
+    border-radius: .3em;
+    transition: .1s;
+}
+
+.logoNav{
+    background-color: #07beb8;
+    display: block;
+    padding:1em;
+    position: relative;
+    margin-top: -2em;
+    border-radius:5em ;
+}
