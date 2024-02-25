@@ -1,0 +1,23 @@
+<div class="PainelInsumos">
+    <ng-container *ngFor="let insumo of Data">
+    
+        <div class="insumoBox">
+            <div class="inputBox">
+                <label ngClass="InsumoLabelAtivo" for="inputNmInsumo">Descrição do Insumo</label>
+                <input  class="inputNm" type="text" name="nmInsumo" id="inputNmInsumo" value="{{insumo.DsInsumo}}">
+            </div>
+            <div class="inputBox">
+                <label class="InsumoLabelAtivo" for="inputQtdInsumo">Quantidade</label>
+                <input class="inputQtd" type="number" name="qtdInsumo" id="inputQtdInsumo" value="{{insumo.QtdInsumo}}">
+
+                <div>
+                    <span><img src="../../../../../assets/img/botao-editar.png" alt=""></span>
+                </div>
+            </div>
+        </div>
+    </ng-container>
+</div>
+
+
+
+

@@ -3,7 +3,7 @@
     
     position: fixed;
     bottom: 0;
-    background-color: #07beb8;
+    background-color: #033d3b;
     width: 100%;
     border-top-right-radius: 1em;
     border-top-left-radius: 1em;
@@ -31,7 +31,7 @@
 }
 
 .logoNav{
-    background-color: #07beb8;
+    background-color: #033d3b;
     display: block;
     padding:1em;
     position: relative;

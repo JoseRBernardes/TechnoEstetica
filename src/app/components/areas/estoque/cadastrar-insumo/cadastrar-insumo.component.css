@@ -1,0 +1,78 @@
+
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.PainelInsumos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: flex-start;
+}
+
+.insumoBox{
+    margin-top: .5em;
+    margin-bottom: .5em;
+    margin-right: .2em;
+    margin-left: .2em;
+   
+    background-color: #15BA7E;
+    padding: 1em;
+    border-radius: .5em;
+    width: 19em;
+    
+}
+
+.inputBox{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    position: relative;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+.InsumoLabelAtivo{
+    position: absolute;
+    margin-top: .4em;
+    margin-left: 1em;
+    font-size: .6em;
+    color: #ffff;
+}
+
+.inputNm{
+   font-size: 1em; 
+   padding-top: 1.5em;
+   padding-bottom: .3em;
+   padding-left: .5em ;
+   width: 19em;
+   border-radius: .4em;
+   border: solid 1px;
+   background-color:#15BA7E ;
+   border-color: #9ceaef;
+   color: white;
+}
+
+.inputQtd{
+   font-size: 1em; 
+   padding-top: 1.1em;
+   padding-bottom: .2em;
+   padding-left: .5em ;
+   border-radius: .4em;
+   width: 5em;
+   border: solid 1px;
+   background-color: #15BA7E;
+   border-color: #9ceaef;
+   height: 2em;
+   color: #ffff;
+}
